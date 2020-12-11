@@ -1,0 +1,150 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #11f59a;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #1c1c1c;
+  text-shadow: none; /* Prevent inheritance from `body` */
+     background-color: #f7f7f7;
+   margin-top: 1rem;
+
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-image: url(img/contactofondo.jpg);
+   color: white;
+   background-size: cover;
+   background-position: center;
+   background-color: rgba(0,0,0,0.9);
+   background-blend-mode: darken;
+}
+
+body {
+   
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  
+}
+
+
+
+.cover-container{
+    font-weight: 10px;
+  max-width: 42em;
+}
+
+.cover-container h1, h2{
+  color: #ff6373;
+  max-width: 42em;
+}
+
+.cover-container h1{
+   font-family: arial;
+   font-weight: bold;
+  color: #ededed;
+  max-width: 42em;
+}
+
+.logote {
+   align-items: center;
+  max-width: 42em;
+   margin-bottom: 1rem;
+   margin-top: 1rem;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(245, 245, 245);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(245, 245, 245);
+  color: rgba(245,245,245);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: transparent;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+     margin-left: -10rem;
+  }
+  .nav-masthead {
+    float: right;
+    margin-right: -10rem;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 500;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(445,445,445, .5);
+}
+
+.mastfoot a {
+  color: rgba(128, 255, 202, .7);
+   font-weight: bold;
+}
+
+
+
+
+
+
